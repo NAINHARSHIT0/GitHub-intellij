@@ -25,7 +25,7 @@ public class first {
         System.out.println("Science\t\t80");
         System.out.println("English\t\t70");
         System.out.println("_________________");
-        System.out.println("Total\t\t300");
+        System.out.println("Total\t\t240/300");
     }
 
 }
