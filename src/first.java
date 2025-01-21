@@ -18,14 +18,14 @@
 public class first {
     public static void main(String[] args) {
         System.out.println("Grade Sheet");
-        System.out.println("_________________");
+        System.out.println("_________________"); // to create line patterns
         System.out.println("Subject\t\tMarks");
         System.out.println("_________________");
         System.out.println("Maths\t\t90");
         System.out.println("Science\t\t80");
         System.out.println("English\t\t70");
         System.out.println("_________________");
-        System.out.println("Total\t\t240/300");
+        System.out.println("Total\t\t240/300"); // total marks of all subjects
     }
 
 }
