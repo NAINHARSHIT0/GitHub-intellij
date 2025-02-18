@@ -1,19 +1,19 @@
 //Task - 1
 
 
-import java.util.Scanner;
-
-public class second {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter base: ");
-        double base = sc.nextDouble();
-        System.out.print("Enter height: ");
-        double height = sc.nextDouble();
-
-        System.out.println("Area: " + (base * height) / 2);
-    }
-}
+//import java.util.Scanner;
+//
+//public class second {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter base: ");
+//        double base = sc.nextDouble();
+//        System.out.print("Enter height: ");
+//        double height = sc.nextDouble();
+//
+//        System.out.println("Area: " + (base * height) / 2);
+//    }
+//}
 
 
 //Task - 2
@@ -63,9 +63,9 @@ public class second {
 //            System.out.println("Invalid operator!");
 //    }
 //}
-
-
-
+//
+//
+//
 //Task- 4
 
 
@@ -133,43 +133,43 @@ public class second {
 //Task - 6
 
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
-//public class second {
-//    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in); // Creates a Scanner object to read input.
-//
-//        System.out.print("Enter a number (1-7): ");
-//        int dayNumber = scanner.nextInt(); // Reads the user input and stores it in the variable `dayNumber`.
-//
-//        // Switch statement to determine the day of the week
-//        switch (dayNumber) {
-//            case 1:
-//                System.out.println("Monday");
-//                break; // Exit the switch statement after executing this case.
-//            case 2:
-//                System.out.println("Tuesday");
-//                break;
-//            case 3:
-//                System.out.println("Wednesday");
-//                break;
-//            case 4:
-//                System.out.println("Thursday");
-//                break;
-//            case 5:
-//                System.out.println("Friday");
-//                break;
-//            case 6:
-//                System.out.println("Saturday");
-//                break;
-//            case 7:
-//                System.out.println("Sunday");
-//                break;
-//            default:
-//                System.out.println("Invalid input! Please enter a number between 1 and 7.");
-//                // Handles inputs that are not in the range 1–7.
-//        }
-//
-//        scanner.close(); // Closes the Scanner object to release resources.
-//    }
-//}
+public class second {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Creates a Scanner object to read input.
+
+        System.out.print("Enter a number (1-7): ");
+        int dayNumber = scanner.nextInt(); // Reads the user input and stores it in the variable `dayNumber`.
+
+        // Switch statement to determine the day of the week
+        switch (dayNumber) {
+            case 1:
+                System.out.println("Monday");
+                break; // Exit the switch statement after executing this case.
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid input! Please enter a number between 1 and 7.");
+                // Handles inputs that are not in the range 1–7.
+        }
+
+        scanner.close(); // Closes the Scanner object to release resources.
+    }
+}
